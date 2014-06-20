@@ -9,10 +9,27 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *getMinor;
+@property (weak, nonatomic) IBOutlet UITextField *getMajor;
 
 @end
 
 @implementation ViewController
+- (IBAction)scanForMinorMajor:(id)sender {
+    //NSString *major = [[self getMajor] text];
+    NSString *majorVal = [NSString stringWithFormat:@"The major is: 1234"];
+    [[self getMajor] setText: majorVal];
+    
+    
+    //NSString *minor = [[self getMinor] text];
+    NSString *minorVal = [NSString
+                          stringWithFormat:@"The minor is: 5678"];
+    [[self getMinor] setText: minorVal];
+    
+    //clear keyboard after you press the Scan button
+    [self.getMajor resignFirstResponder];
+    
+}
 
 - (void)viewDidLoad
 {

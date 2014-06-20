@@ -21,6 +21,8 @@
 		8229F9F519547DD900F79D5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8229F9D719547DD900F79D5A /* UIKit.framework */; };
 		8229F9FD19547DD900F79D5A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8229F9FB19547DD900F79D5A /* InfoPlist.strings */; };
 		8229F9FF19547DD900F79D5A /* Beacons_PatAnishTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8229F9FE19547DD900F79D5A /* Beacons_PatAnishTests.m */; };
+		8229FA0919547E2800F79D5A /* ProximityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8229FA0819547E2800F79D5A /* ProximityKit.framework */; };
+		8229FA0B19547E7800F79D5A /* ProximityKit.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8229FA0A19547E7800F79D5A /* ProximityKit.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		8229F9FA19547DD900F79D5A /* Beacons_PatAnishTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Beacons_PatAnishTests-Info.plist"; sourceTree = "<group>"; };
 		8229F9FC19547DD900F79D5A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8229F9FE19547DD900F79D5A /* Beacons_PatAnishTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Beacons_PatAnishTests.m; sourceTree = "<group>"; };
+		8229FA0819547E2800F79D5A /* ProximityKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ProximityKit.framework; sourceTree = "<group>"; };
+		8229FA0A19547E7800F79D5A /* ProximityKit.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ProximityKit.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 				8229F9D619547DD900F79D5A /* CoreGraphics.framework in Frameworks */,
 				8229F9D819547DD900F79D5A /* UIKit.framework in Frameworks */,
 				8229F9D419547DD900F79D5A /* Foundation.framework in Frameworks */,
+				8229FA0919547E2800F79D5A /* ProximityKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +106,7 @@
 		8229F9D219547DD900F79D5A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8229FA0819547E2800F79D5A /* ProximityKit.framework */,
 				8229F9D319547DD900F79D5A /* Foundation.framework */,
 				8229F9D519547DD900F79D5A /* CoreGraphics.framework */,
 				8229F9D719547DD900F79D5A /* UIKit.framework */,
@@ -112,6 +118,7 @@
 		8229F9D919547DD900F79D5A /* Beacons_PatAnish */ = {
 			isa = PBXGroup;
 			children = (
+				8229FA0A19547E7800F79D5A /* ProximityKit.plist */,
 				8229F9E219547DD900F79D5A /* AppDelegate.h */,
 				8229F9E319547DD900F79D5A /* AppDelegate.m */,
 				8229F9E519547DD900F79D5A /* Main.storyboard */,
@@ -229,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8229F9EC19547DD900F79D5A /* Images.xcassets in Resources */,
+				8229FA0B19547E7800F79D5A /* ProximityKit.plist in Resources */,
 				8229F9DE19547DD900F79D5A /* InfoPlist.strings in Resources */,
 				8229F9E719547DD900F79D5A /* Main.storyboard in Resources */,
 			);
@@ -376,6 +384,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Beacons_PatAnish/Beacons_PatAnish-Prefix.pch";
 				INFOPLIST_FILE = "Beacons_PatAnish/Beacons_PatAnish-Info.plist";
@@ -389,6 +401,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Beacons_PatAnish/Beacons_PatAnish-Prefix.pch";
 				INFOPLIST_FILE = "Beacons_PatAnish/Beacons_PatAnish-Info.plist";

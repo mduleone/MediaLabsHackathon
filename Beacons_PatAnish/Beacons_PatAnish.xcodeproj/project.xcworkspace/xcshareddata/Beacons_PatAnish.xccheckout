@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CF45B64F-316B-4566-A666-6EE7F1177DA3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Beacons_PatAnish</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>32EF9407-D2BB-42AF-8FEE-D90CDA7BF1F3</key>
+		<string>https://github.com/mduleone/MediaLabsHackathon.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Beacons_PatAnish/Beacons_PatAnish.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>32EF9407-D2BB-42AF-8FEE-D90CDA7BF1F3</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mduleone/MediaLabsHackathon.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>32EF9407-D2BB-42AF-8FEE-D90CDA7BF1F3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>32EF9407-D2BB-42AF-8FEE-D90CDA7BF1F3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MediaLabsHackathon</string>
+		</dict>
+	</array>
+</dict>
+</plist>

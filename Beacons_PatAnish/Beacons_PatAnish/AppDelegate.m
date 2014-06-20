@@ -12,6 +12,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    // create and start to sync the manager with the Proximity Kit backend
+    self.proximityKitManager = [PKManager managerWithDelegate:self];
+    [self.proximityKitManager start];
+    
     // Override point for customization after application launch.
     return YES;
 }
@@ -41,6 +45,16 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+#pragma mark -
+#pragma mark ProximityKit delegate methods
+
+- (void)proximityKit:(PKManager *)manager didEnter:(PKRegion *)region {
+    NSLog(@"entered %@", region);
+}
+- (void)proximityKit:(PKManager *)manager didExit:(PKRegion *)region {
+    NSLog(@"exited %@", region);
 }
 
 @end
