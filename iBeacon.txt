@@ -1,0 +1,82 @@
+iBeacon
+{
+	"Profiles":{
+		"1":{
+			"Account":"dad@gmail.com",
+			"Device_Id":<internal device/adapter id>,
+			"Ads":{
+				"Chevy":"http://...",
+				"Despicable Me 2":"http://...",
+				"Universal Parks":"http://..."
+			},
+			"Negative Ads":{
+				"Easy Bake Oven":"http://..."
+			},
+			"Preferences":{
+				"Baby":"0",
+				"Cars":"1",
+				"Men's Health":"1",
+				"Toys":"0",
+				"Universal":"1"
+			}
+		},
+		"2":{
+			"Account":"mom@gmail.com",
+			"Device_Id":<internal device/adapter id>,
+			"Ads":{
+				"Baby Food":"http://...",
+				"Despicable Me 2":"http://...",
+				"Universal Parks":"http://..."
+			},
+			"Negative Ads":{
+				"Chevy":"http://..."
+			},
+			"Preferences":{
+				"Baby":"1",
+				"Cars":"0",
+				"Men's Health":"0",
+				"Toys":"1",
+				"Universal":"1"
+			}
+		}
+	}
+}
+
+{
+	"Beacons":{
+		"STB":{
+			"major":"a",
+			"minor":"b"
+		},
+		"Baby":{
+			"major":"c",
+			"minor":"d"
+		},
+		"Cars":{
+			"major":"e",
+			"minor":"f"
+		},
+		"Toys":{
+			"major":"g",
+			"minor":"h"
+		},
+		"Men's Health":{
+			"major":"i",
+			"minor":"j"
+		},
+		"Universal":{
+			"major":"k",
+			"minor":"l"
+		}
+	}
+}
+
+{
+	"Assets":{
+		"Baby":"http://...",
+		"Cars":"http://...",
+		"Men's Health":"http://...",
+		"Toys":"http://...",
+		"Universal":"http://..."
+	}
+}
